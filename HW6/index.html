@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Delicious E-commerce</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">Subir's Restro!</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="cart-link">
+            <i class="fas fa-shopping-cart"></i> Cart <span class="badge badge-primary">0</span>
+          </a>
+          <span id="cart-total"></span>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="https://imgs.search.brave.com/U0KocMQwosBaSXp6MkH3-gqEfdFUHBjZfhTfkQwcsFc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM3/MzEyOTU4MC9waG90/by9wZXBwZXJvbmkt/cGl6emEuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPUhWSlYt/OWRwaDVWTlkyR0Vw/MVM4MTJxY09kaEdp/ekNHYWNPOHB0X0hR/Vms9" alt="Gourmet Pizza">
+          <div class="card-body">
+            <h5 class="card-title">Gourmet Pizza</h5>
+            <p class="card-text">Freshly baked pizza with your choice of toppings.</p>
+            <span class="price">Rs. 90</span>
+            <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="https://imgs.search.brave.com/O5UeWReCMR9hcS7O2lxmgImzEAhidrZM0TH0o3vaw98/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTA4/MTc4MDkxL3Bob3Rv/L2JpZy1tYWtpLXN1/c2hpLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz00VDBJYjlr/bEhrUWJ2R3NpNnp3/SURlRlhzbl84a0RU/cVNYQ1Q4VlFjeEM4/PQ" alt="Delicious Sushi">
+          <div class="card-body">
+            <h5 class="card-title">Tuna Sushi</h5>
+            <p class="card-text">Authentic and fresh sushi rolls for a delightful dining experience.</p>
+            <span class="price">Rs. 120</span>
+            <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="https://imgs.search.brave.com/5Ue8BRTiEYbS8VXGv2gr2RDR59PkCXO8FjZSShb15Q0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTAw/ODAxNjU3Mi9waG90/by9idXJnZXIuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPW5M/cGgzMklUaU90QlFp/RHFuY3JPSWxYMmRu/SnZYeVM4ZS1Bd29a/QllOWDQ9" alt="Juicy Burger">
+          <div class="card-body">
+            <h5 class="card-title">Double Chicken Burger</h5>
+            <p class="card-text">Mouthwatering burger made with premium ingredients.</p>
+            <span class="price">Rs. 100</span>
+            <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
