@@ -1,0 +1,46 @@
+body {
+  padding-top: 56px;
+  background-color: #f8f9fa;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 76px;
+  }
+}
+
+.card {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card-title,
+.card-text {
+  color: #333;
+}
+
+.price {
+  font-weight: bold;
+  color: #777;
+}
+
+#cart-total {
+  display: none;
+  padding: 0.5rem 1rem;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: #333;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #777;
+}
